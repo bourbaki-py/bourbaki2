@@ -46,7 +46,7 @@ xdoctest = {extras = ["colors"], version = ">=0.15.10"}
 myst-parser = {version = ">=0.16.1"}
 
 [tool.poetry.scripts]
-bourbaki-types = "bourbaki.types.__main__:main"
+bourbaki.types = "bourbaki.types.__main__:main"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
