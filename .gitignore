@@ -9,5 +9,5 @@
 /build/
 /dist/
 /docs/_build/
-/src/*.egg-info/
+*.egg-info/
 __pycache__/
